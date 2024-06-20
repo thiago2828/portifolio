@@ -186,7 +186,7 @@ span{
 
 .about-content h2{
     font-size: 5rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 3cm;
 }
 
 .about-content p{
@@ -223,6 +223,12 @@ span{
     transition: 0.3s ease-in-out;
     cursor: pointer;
 }
+.services-box img{
+    width: 300px;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    margin-top: 2cm;
+}
 
 .services-box:hover{
     box-shadow: 0 0 20px var(--main-color);
@@ -236,6 +242,11 @@ span{
 
 .services-info p{
     font-size: 1.6rem;
+}
+
+.services a{
+    color: #fff !important; /* ou a cor desejada */
+    text-decoration: none !important; /* Remove o sublinhado */
 }
 
 .contact{
